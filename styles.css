@@ -29,6 +29,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /*My css*/
 
 body {
+    font-size: 20px;
     display: grid;
     grid-template-rows: 20vh 80vh;
     grid-template-columns: 20vw 80vw;
@@ -37,6 +38,10 @@ body {
 #dashboard {
     background-color: blue;
     grid-row: 1 / 3;
+}
+
+.dash-icon {
+    width: 2.5rem;
 }
 
 #header {

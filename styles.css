@@ -52,6 +52,18 @@ body {
   grid-template-columns: 20vw 80vw;
 }
 
+.rounded {
+   object-fit: cover;
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+}
+
+.image-small {
+    width: 40%;
+    height: auto;
+}
+
 #dashboard {
   background-color: rgb(231, 231, 231);
   grid-row: 1 / 3;
@@ -81,7 +93,28 @@ body {
 }
 
 #header {
-  background-color: red;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+#header-upper {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.header-icon {
+    width: 3rem;
+}
+
+#header-name {
+    justify-self: baseline;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 100%;
 }
 
 #content {

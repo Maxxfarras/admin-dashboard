@@ -163,5 +163,17 @@ input {
 }
 
 #content {
-  background-color: violet;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 8fr 2fr;
+  padding: 5% 2%;
+}
+
+#projects {
+  grid-row-end: 3;
+  grid-row-start: 1;
+}
+
+.project-icon-row > img {
+  width: 20px;
 }

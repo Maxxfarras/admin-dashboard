@@ -167,6 +167,13 @@ input {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 8fr 2fr;
   padding: 2%;
+  background-color: var(--grey);
+}
+
+.content-title {
+  font-size: var(--font-medium);
+  font-weight: 500;
+  margin-bottom: 1%;
 }
 
 #projects {
@@ -184,9 +191,23 @@ input {
   grid-template-rows: 1;
   grid-column: 6% 94%;
   border-left: 10px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1%;
+}
+
+.project-title {
+  font-size: var(--font-medium);
+  font-weight: 600;
+}
+
+.project-icon-row {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 6fr repeat(3, 1fr);
+  column-gap: 2%;
 }
 
 .project-icon-row > img {
-  width: 20px;
+  width: 70%;
 }

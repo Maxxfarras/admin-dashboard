@@ -166,12 +166,25 @@ input {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 8fr 2fr;
-  padding: 5% 2%;
+  padding: 2%;
 }
 
 #projects {
   grid-row-end: 3;
   grid-row-start: 1;
+}
+
+.project-template {
+  column-gap: 10%;
+  grid-template-columns: 40% 40%;
+}
+
+.project {
+  width: 40%;
+  grid-template-rows: 1;
+  grid-column: 6% 94%;
+  border-left: 10px solid black;
+  border-radius: 20px;
 }
 
 .project-icon-row > img {

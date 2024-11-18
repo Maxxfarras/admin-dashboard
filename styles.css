@@ -234,6 +234,9 @@ input {
 }
 
 .announcement {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   font-size: var(--font-normal);
 }
 

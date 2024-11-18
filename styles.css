@@ -248,3 +248,10 @@ input {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
 }
+
+.trending-tab {
+  background-color: azure;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 3fr 7fr;
+}

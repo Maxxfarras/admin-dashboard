@@ -189,7 +189,7 @@ input {
   grid-template-columns: repeat(2, 48%);
   align-content: space-between;
   justify-content: space-between;
-  margin-right: 1%;
+  margin-right: 2%;
 }
 
 .project {
